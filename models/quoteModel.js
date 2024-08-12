@@ -5,7 +5,6 @@ const quoteSchema = new mongoose.Schema({
     type: String,
     required: true,
     trim: true,
-    maxLength: 40,
     unique: true,
   },
   author: {
